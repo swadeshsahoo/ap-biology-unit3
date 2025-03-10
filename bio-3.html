@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Biology Unit 3 Practice Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .question-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        details {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        summary:hover {
+            color: #4CAF50;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .answer-section {
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        input[type="text"], textarea {
+            width: 90%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        textarea {
+            height: 60px;
+            resize: vertical;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            margin-top: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AP Biology Unit 3: Cellular Energetics Practice Questions</h1>
+    </header>
+    <div class="question-container">
+        <!-- Multiple-Choice Questions -->
+        <details>
+            <summary>1. What is the primary role of an enzyme in a metabolic reaction?</summary>
+            <div class="options">
+                <p>a) Increase the activation energy</p>
+                <p>b) Lower the activation energy</p>
+                <p>c) Act as a reactant</p>
+                <p>d) Prevent the reaction from occurring</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer1" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(1)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>2. Why do enzymes exhibit specificity for their substrates?</summary>
+            <div class="options">
+                <p>a) They have a random shape</p>
+                <p>b) Their active site has a complementary shape to the substrate</p>
+                <p>c) They are denatured at high temperatures</p>
+                <p>d) They bind to all molecules equally</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer2" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(2)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>3. Pepsin, an enzyme in the stomach, works best at a pH of around 2. What happens to its activity at pH 7?</summary>
+            <div class="options">
+                <p>a) It increases</p>
+                <p>b) It remains unchanged</p>
+                <p>c) It decreases due to denaturation</p>
+                <p>d) It shifts to a different substrate</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer3" placeholder="Type your answer (e.g., c)">
+                <button onclick="saveAnswer(3)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>4. Which stage of cellular respiration produces the most ATP directly?</summary>
+            <div class="options">
+                <p>a) Glycolysis</p>
+                <p>b) Pyruvate oxidation</p>
+                <p>c) Citric acid cycle</p>
+                <p>d) Oxidative phosphorylation</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer4" placeholder="Type your answer (e.g., d)">
+                <button onclick="saveAnswer(4)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>5. Where does glycolysis occur in a eukaryotic cell?</summary>
+            <div class="options">
+                <p>a) Mitochondria</p>
+                <p>b) Cytoplasm</p>
+                <p>c) Nucleus</p>
+                <p>d) Endoplasmic reticulum</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer5" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(5)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>6. What molecule is the final electron acceptor in the light-dependent reactions of photosynthesis?</summary>
+            <div class="options">
+                <p>a) Oxygen</p>
+                <p>b) NADP⁺</p>
+                <p>c) Glucose</p>
+                <p>d) CO₂</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer6" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(6)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>7. How many ATP molecules are produced from one glucose molecule during glycolysis?</summary>
+            <div class="options">
+                <p>a) 2</p>
+                <p>b) 4</p>
+                <p>c) 32</p>
+                <p>d) 36</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer7" placeholder="Type your answer (e.g., a)">
+                <button onclick="saveAnswer(7)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>8. In the absence of oxygen, yeast cells produce energy via fermentation, resulting in:</summary>
+            <div class="options">
+                <p>a) Lactic acid</p>
+                <p>b) Ethanol and CO₂</p>
+                <p>c) Pyruvate</p>
+                <p>d) Acetyl-CoA</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer8" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(8)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>9. Chlorophyll absorbs light most efficiently in which wavelengths?</summary>
+            <div class="options">
+                <p>a) Red and blue</p>
+                <p>b) Green and yellow</p>
+                <p>c) Blue and green</p>
+                <p>d) Red and yellow</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer9" placeholder="Type your answer (e.g., a)">
+                <button onclick="saveAnswer(9)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>10. What is the primary role of the citric acid cycle?</summary>
+            <div class="options">
+                <p>a) Produce ATP directly</p>
+                <p>b) Generate NADH and FADH₂ for the electron transport chain</p>
+                <p>c) Break down glucose</p>
+                <p>d) Synthesize oxygen</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer10" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(10)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>11. Competitive inhibitors affect enzyme activity by:</summary>
+            <div class="options">
+                <p>a) Binding to the active site</p>
+                <p>b) Changing the enzyme’s shape</p>
+                <p>c) Increasing substrate concentration</p>
+                <p>d) Denaturing the enzyme</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer11" placeholder="Type your answer (e.g., a)">
+                <button onclick="saveAnswer(11)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>12. What is the role of oxygen in the electron transport chain?</summary>
+            <div class="options">
+                <p>a) Electron donor</p>
+                <p>b) Proton pump</p>
+                <p>c) Final electron acceptor</p>
+                <p>d) ATP synthase</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer12" placeholder="Type your answer (e.g., c)">
+                <button onclick="saveAnswer(12)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>13. Which process occurs in the stroma of the chloroplast?</summary>
+            <div class="options">
+                <p>a) Light-dependent reactions</p>
+                <p>b) Calvin cycle</p>
+                <p>c) Electron transport chain</p>
+                <p>d) Photolysis</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer13" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(13)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>14. Which molecule is NOT a high-energy electron carrier in cellular respiration?</summary>
+            <div class="options">
+                <p>a) NADH</p>
+                <p>b) FADH₂</p>
+                <p>c) ATP</p>
+                <p>d) NADPH</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer14" placeholder="Type your answer (e.g., c)">
+                <button onclick="saveAnswer(14)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>15. Why does enzyme activity decrease above a certain temperature?</summary>
+            <div class="options">
+                <p>a) Substrate concentration increases</p>
+                <p>b) The enzyme denatures</p>
+                <p>c) The reaction rate slows</p>
+                <p>d) The active site becomes more specific</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer15" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(15)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>16. What drives ATP synthesis in oxidative phosphorylation?</summary>
+            <div class="options">
+                <p>a) Glucose breakdown</p>
+                <p>b) Proton gradient across the mitochondrial membrane</p>
+                <p>c) Oxygen consumption</p>
+                <p>d) Substrate-level phosphorylation</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer16" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(16)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>17. What are the primary reactants of the light-dependent reactions?</summary>
+            <div class="options">
+                <p>a) CO₂ and H₂O</p>
+                <p>b) H₂O and light</p>
+                <p>c) Glucose and O₂</p>
+                <p>d) ATP and NADPH</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer17" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(17)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>18. What is the net gain of ATP from glycolysis followed by lactic acid fermentation?</summary>
+            <div class="options">
+                <p>a) 2 ATP</p>
+                <p>b) 4 ATP</p>
+                <p>c) 32 ATP</p>
+                <p>d) 36 ATP</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer18" placeholder="Type your answer (e.g., a)">
+                <button onclick="saveAnswer(18)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>19. Allosteric enzymes are regulated by:</summary>
+            <div class="options">
+                <p>a) Binding of molecules to the active site</p>
+                <p>b) Binding of effectors to a site other than the active site</p>
+                <p>c) Temperature changes only</p>
+                <p>d) Substrate concentration alone</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer19" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(19)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>20. What molecule is fixed into a 3-carbon compound during the Calvin cycle?</summary>
+            <div class="options">
+                <p>a) O₂</p>
+                <p>b) CO₂</p>
+                <p>c) Glucose</p>
+                <p>d) H₂O</p>
+            </div>
+            <div class="answer-section">
+                <input type="text" id="answer20" placeholder="Type your answer (e.g., b)">
+                <button onclick="saveAnswer(20)">Save</button>
+            </div>
+        </details>
+
+        <!-- Short-Answer Questions -->
+        <details>
+            <summary>21. Explain how the structure of an enzyme’s active site relates to its function.</summary>
+            <div class="answer-section">
+                <textarea id="answer21" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(21)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>22. Describe the role of NADH in cellular respiration.</summary>
+            <div class="answer-section">
+                <textarea id="answer22" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(22)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>23. Why is the proton gradient important in both photosynthesis and cellular respiration?</summary>
+            <div class="answer-section">
+                <textarea id="answer23" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(23)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>24. What happens to pyruvate in the absence of oxygen in human muscle cells?</summary>
+            <div class="answer-section">
+                <textarea id="answer24" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(24)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>25. How does light energy contribute to ATP production in photosynthesis?</summary>
+            <div class="answer-section">
+                <textarea id="answer25" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(25)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>26. Compare substrate-level phosphorylation and oxidative phosphorylation in terms of ATP production.</summary>
+            <div class="answer-section">
+                <textarea id="answer26" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(26)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>27. Explain why glycolysis is considered an ancient metabolic pathway.</summary>
+            <div class="answer-section">
+                <textarea id="answer27" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(27)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>28. How does a competitive inhibitor affect an enzyme’s activity, and how can this be overcome?</summary>
+            <div class="answer-section">
+                <textarea id="answer28" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(28)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>29. Describe the role of rubisco in the Calvin cycle.</summary>
+            <div class="answer-section">
+                <textarea id="answer29" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(29)">Save</button>
+            </div>
+        </details>
+        <details>
+            <summary>30. What is the significance of the inner mitochondrial membrane’s large surface area?</summary>
+            <div class="answer-section">
+                <textarea id="answer30" placeholder="Type your answer here"></textarea>
+                <button onclick="saveAnswer(30)">Save</button>
+            </div>
+        </details>
+    </div>
+
+    <script>
+        // Load saved answers when the page loads
+        window.onload = function() {
+            for (let i = 1; i <= 30; i++) {
+                let savedAnswer = localStorage.getItem(`answer${i}`);
+                if (savedAnswer) {
+                    document.getElementById(`answer${i}`).value = savedAnswer;
+                }
+            }
+        };
+
+        // Save answer to localStorage
+        function saveAnswer(questionNumber) {
+            let answer = document.getElementById(`answer${questionNumber}`).value;
+            localStorage.setItem(`answer${questionNumber}`, answer);
+            alert(`Answer for question ${questionNumber} saved!`);
+        }
+    </script>
+</body>
+</html>
